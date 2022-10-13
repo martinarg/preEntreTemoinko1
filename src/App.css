@@ -175,6 +175,10 @@ margin-left: 1vw;
   font-size: 1vw;
   color: white;
 }
+.item-price{
+  font-size: 1vw;
+  color: white;
+}
 
 .item-detail img{
   max-width: 20vw;

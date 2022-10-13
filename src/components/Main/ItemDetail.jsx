@@ -9,6 +9,7 @@ const ItemDetail = ({item}) =>{
             <img src={item.img}/>
             <div className='item-detail-info'>
                 <h2>{item.title}</h2>
+                <p className='item-price'>${item.price}</p>
                 <p className='item-desc'>{item.desc}</p>
                 <ItemCount stock={item.stock} initial={1}/>
             </div>
