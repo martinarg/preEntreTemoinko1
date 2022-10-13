@@ -1,5 +1,5 @@
-
-
+import React from "react";
+import { Link, NavLink } from "react-router-dom";
 const ItemListNav = (props) =>{
     const menu={
         'text-decoration':'none',
@@ -7,9 +7,9 @@ const ItemListNav = (props) =>{
         'margin-top':'2vh'
        }
     return(
-        <ul>
-            <li><a style={menu} href="">{props.secciones}</a></li>
-        </ul>
+            
+            <NavLink style={menu} to={`/category/${props.secciones}`}>{props.secciones}</NavLink>
+
     )
 }
 export default ItemListNav;

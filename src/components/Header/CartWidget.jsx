@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartShopping} from '@fortawesome/free-solid-svg-icons';
-import { useState,setState } from "react";
+import { useState } from "react";
 
 function CartWidget(){
     const iconoStyles = { 
