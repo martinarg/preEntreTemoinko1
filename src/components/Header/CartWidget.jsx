@@ -10,14 +10,13 @@ function CartWidget(){
     }
 
     const numeroCarro = { 
-        'margin-top': '3vh',
-        'margin-left': '0.5vw',
-        'width': '2.5vw',
-     'height': '2.5vw',
-     '-moz-border-radius': '50%',
-     '-webkit-border-radius': '50%',
-     'border-radius': '50%',
-     'background': '#5cb85c'
+        'background': 'white',
+       'border-radius': '45%',
+        'width': '10vw',
+        'height': '10vw',
+        'padding': '0.5vw',
+        'margin-left': '1vw',
+        'font-size':'1vw'
     }
     const [carroQ, setState] = useState(1);
     return(
